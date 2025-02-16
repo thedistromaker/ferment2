@@ -13,7 +13,7 @@ sudo chown -R $user:$user /opt/ferment
 sudo chown -R $user:$user /opt/ferment/*
 sudo chown -R 0755 /opt/ferment
 sudo chown -R 0755 /opt/ferment*
-wget -q -O /opt/ferment/bin/ferment https://raw.githubusercontent.com/thedistromaker/ferment2/main/ferment.sh
+wget -q -O /opt/ferment/bin/ferment https://raw.githubusercontent.com/thedistromaker/ferment2/main/ferment2.sh
 sudo chmod +x /opt/ferment/bin/ferment
 read -p "What architecture is your system? (arm, arm64, x64):" FARCH
 read -p "Which shell do you use? (b: bash, z: zsh, f: fish)" shell
