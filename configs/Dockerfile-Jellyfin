@@ -1,0 +1,5 @@
+FROM jellyfin/jellyfin
+EXPOSE 8096
+VOLUME /opt/ferment/installed/jellyfin/media
+VOLUME /opt/ferment/installed/jellyfin/config
+CMD ["dotnet", "Jellyfin.Server.dll"]

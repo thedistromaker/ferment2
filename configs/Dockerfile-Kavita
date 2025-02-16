@@ -1,0 +1,4 @@
+FROM kizaing/kavita:latest
+EXPOSE 5000
+VOLUME /opt/ferment/installed/kavita/data
+CMD ["./kavita", "--port", "5000"]

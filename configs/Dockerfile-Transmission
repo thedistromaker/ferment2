@@ -1,0 +1,4 @@
+FROM lscr.io/linuxserver/transmission
+EXPOSE 9091
+VOLUME /opt/ferment/installed/transmission/downloads
+CMD ["/usr/bin/transmission-daemon", "--foreground"]
